@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "description": "Plugin marketplace for the cjhowe-us artifact + workflow ecosystem.",
+    "version": "1.0.0"
+  },
+  "name": "cjhowe-us-marketplace",
+  "owner": {
+    "email": "cjhowe@users.noreply.github.com",
+    "name": "Christian Howe"
+  },
+  "plugins": [
+    {
+      "name": "artifact",
+      "author": { "name": "Christian Howe" },
+      "category": "development",
+      "description": "Artifact primitives for Claude Code: schemes, backends, templates, graph. Zero plugin deps. URI format: <scheme>|<backend>/<path>.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/artifact.git",
+        "path": "artifact"
+      },
+      "tags": ["artifacts", "schemes", "backends", "graph", "templates"],
+      "version": "1.0.0"
+    },
+    {
+      "name": "artifact-github",
+      "author": { "name": "Christian Howe" },
+      "category": "development",
+      "description": "GitHub backends for the artifact plugin: gh-pr, gh-issue, gh-release, gh-milestone, gh-tag, gh-branch, gh-gist. Requires artifact.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/artifact.git",
+        "path": "artifact-github"
+      },
+      "tags": ["artifacts", "github"],
+      "version": "1.0.0"
+    },
+    {
+      "name": "artifact-documents",
+      "author": { "name": "Christian Howe" },
+      "category": "development",
+      "description": "Document scheme + filesystem/Confluence backends + eight markdown templates (design, plan, review, release, test, requirement, user-story, triage). Requires artifact.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/artifact.git",
+        "path": "artifact-documents"
+      },
+      "tags": ["artifacts", "documents", "templates"],
+      "version": "1.0.0"
+    },
+    {
+      "name": "workflow",
+      "author": { "name": "Christian Howe" },
+      "category": "development",
+      "description": "Workflow orchestration plugin. Workers, orchestrator flock, meta-workflows (default, author, review, update), execution scheme + execution-gh-pr backend. Requires artifact.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/workflow.git",
+        "path": "workflow"
+      },
+      "tags": ["workflow", "orchestrator", "agent-teams"],
+      "version": "1.0.0"
+    },
+    {
+      "name": "env-setup",
+      "author": { "name": "Christian Howe" },
+      "category": "setup",
+      "description": "Cross-platform user-env-var onboarding helper (zsh / bash / fish / sh / ksh / PowerShell).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/workflow.git",
+        "path": "env-setup"
+      },
+      "tags": ["bash", "cross-platform", "env-var", "fish", "onboarding", "powershell", "setup", "shell", "zsh"],
+      "version": "0.1.0"
+    },
+    {
+      "name": "rumdl",
+      "author": { "name": "Christian Howe" },
+      "category": "development",
+      "description": "Markdown linting and formatting via rumdl: LSP server, PostToolUse fmt hook, and the markdown coding-standard skill.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjhowe-us/workflow.git",
+        "path": "rumdl"
+      },
+      "tags": ["formatter", "gfm", "linter", "lsp", "markdown", "rumdl"],
+      "version": "1.0.4"
+    }
+  ]
+}
