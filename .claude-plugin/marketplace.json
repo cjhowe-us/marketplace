@@ -80,9 +80,8 @@
       "category": "development",
       "description": "Markdown linting and formatting via rumdl: LSP server, PostToolUse fmt hook, and the markdown coding-standard skill.",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/cjhowe-us/workflow.git",
-        "path": "rumdl"
+        "source": "github",
+        "repo": "cjhowe-us/rumdl-plugin"
       },
       "tags": ["formatter", "gfm", "linter", "lsp", "markdown", "rumdl"],
       "version": "1.0.4"

@@ -23,7 +23,7 @@ claude plugin install rumdl@cjhowe-us-marketplace              # optional
 | `artifact-documents` | [cjhowe-us/artifact](https://github.com/cjhowe-us/artifact)  | `artifact-documents/` | Document scheme + backends + templates |
 | `workflow`           | [cjhowe-us/workflow](https://github.com/cjhowe-us/workflow)  | `workflow/`           | Workflow orchestration |
 | `env-setup`          | [cjhowe-us/workflow](https://github.com/cjhowe-us/workflow)  | `env-setup/`          | Env-var onboarding helper |
-| `rumdl`              | [cjhowe-us/workflow](https://github.com/cjhowe-us/workflow)  | `rumdl/`              | Markdown linting |
+| `rumdl`              | [cjhowe-us/rumdl-plugin](https://github.com/cjhowe-us/rumdl-plugin) | `.` | Markdown linting |
 
 ## License
 
