@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Plugin marketplace for the cjhowe-us artifact + workflow ecosystem.",
-    "version": "2.2.0"
+    "version": "2.2.1"
   },
   "name": "cjhowe-us-marketplace",
   "owner": {
@@ -36,7 +36,7 @@
         "name": "Christian Howe"
       },
       "category": "development",
-      "description": "GitHub backends for the artifact plugin: gh-pr, gh-issue, gh-release, gh-milestone, gh-tag, gh-branch, gh-gist. Requires artifact-plugin.",
+      "description": "GitHub backends for the artifact plugin: gh-pr, gh-issue, gh-release, gh-milestone, gh-tag, gh-branch, gh-gist. Exposes shared `auth_status` helper for cross-plugin identity. Requires artifact-plugin.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/cjhowe-us/artifact-plugin.git",
@@ -46,7 +46,7 @@
         "artifacts",
         "github"
       ],
-      "version": "2.0.5"
+      "version": "2.0.6"
     },
     {
       "name": "artifact-documents-plugin",
