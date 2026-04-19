@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Plugin marketplace for the cjhowe-us artifact + workflow ecosystem.",
-    "version": "2.0.2"
+    "version": "2.0.3"
   },
   "name": "cjhowe-us-marketplace",
   "owner": {
@@ -106,6 +106,30 @@
         "rumdl"
       ],
       "version": "1.0.8"
+    },
+    {
+      "name": "python-plugin",
+      "author": {
+        "name": "Christian Howe"
+      },
+      "category": "development",
+      "description": "Python toolchain plugin: ruff + mypy + pytest + uv PostToolUse hooks, missing-test detector, and a unified `python` skill alongside per-tool skills (python-ruff, python-mypy, python-uv, python-pytest, python-pypi) for fine-grained enablement.",
+      "source": {
+        "source": "github",
+        "repo": "cjhowe-us/python-plugin"
+      },
+      "tags": [
+        "python",
+        "ruff",
+        "mypy",
+        "uv",
+        "pytest",
+        "pypi",
+        "linter",
+        "formatter",
+        "type-checker"
+      ],
+      "version": "0.1.0"
     }
   ]
 }
