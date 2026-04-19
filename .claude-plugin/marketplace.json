@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Plugin marketplace for the cjhowe-us artifact + workflow ecosystem.",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   "name": "cjhowe-us-marketplace",
   "owner": {
@@ -73,7 +73,7 @@
         "name": "Christian Howe"
       },
       "category": "development",
-      "description": "Workflow orchestration plugin. `/workflow` entry skill, worker agent, four base workflows (default, conductor, plan-do, write-review) with conditional steps, execution scheme + execution-gh-pr backend. Requires artifact-plugin.",
+      "description": "Workflow orchestration plugin. `/workflow` entry skill, worker agent, four base workflows (default, conductor, plan-do, write-review) with conditional steps, execution scheme + execution-gh-pr backend, presence scheme + presence-gh-gist backend, shared TTL-cached GitHub auth. Requires artifact-plugin.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/cjhowe-us/workflow-plugin.git",
@@ -84,7 +84,7 @@
         "orchestrator",
         "agent-teams"
       ],
-      "version": "2.1.0"
+      "version": "2.2.0"
     },
     {
       "name": "rumdl-plugin",
